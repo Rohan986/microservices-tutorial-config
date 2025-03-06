@@ -1,4 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/microservices
+    username: postgres
+    password: testuser
 
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
 eureka:
   client:
     register-with-eureka: true
